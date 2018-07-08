@@ -5,7 +5,130 @@ https://sdk.altvr.com/libs/altspace.js/2.9.0/altspace.min.js"></script></head>
 <body>
 <a-scene altspace="fullspace: true">
 <a-assets>
+<img id="brick" src="textures\brick.png">
+<img id="question" src="textures\question.png">
+<img id="box" src="textures\box.jpg">
 </a-assets>
+
+<a-entity id="floor " geometry="primitive: plane; width:4.952788; height:-4.952788;" position="0 2.3984 0.01426499" rotation="90 0 0" material="shader: 
+standard; transparent: false; color: #FFFFFF; src: #brick; repeat: 30 30; offset: 0 0;  side: double; " shadow="receive: 
+false; cast: false;" >
+</a-entity>
+
+<a-entity id="questionLight " geometry="primitive: box; width:0.2511823; height:0.2511822; depth:0.2511822;" position="0.63346 2.0418 -1.0456" rotation="0 0 0" material="shader: 
+standard; transparent: false; color: #FFFFFF; src: #question; repeat: 1 1; offset: 0 0;  side: front; " shadow="receive: 
+false; cast: false;" ><a-animation  attribute= "rotation"
+
+ direction= "normal"
+ dur=" 3000"
+ easing="linear"
+
+ fill= "forwards"
+
+ repeat=" indefinite"
+ to=" 0 360 0"
+></a-animation>
+
+</a-entity>
+
+<a-entity id="questionLight " geometry="primitive: box; width:0.2511823; height:0.2511822; depth:0.2511822;" position="1.254 2.0418 -1.0456" rotation="0 0 0" material="shader: 
+standard; transparent: false; color: #FFFFFF; src: #question; repeat: 1 1; offset: 0 0;  side: front; " shadow="receive: 
+false; cast: false;" ><a-animation  attribute= "rotation"
+
+ direction= "normal"
+ dur=" 3000"
+ easing="linear"
+
+ fill= "forwards"
+
+ repeat=" indefinite"
+ to=" 0 360 0"
+></a-animation>
+
+</a-entity>
+
+<a-entity id="questionLight " geometry="primitive: box; width:0.2511823; height:0.2511822; depth:0.2511822;" position="-1.1991 2.0418 -1.0456" rotation="0 0 0" material="shader: 
+standard; transparent: false; color: #FFFFFF; src: #question; repeat: 1 1; offset: 0 0;  side: front; " shadow="receive: 
+false; cast: false;" ><a-animation  attribute= "rotation"
+
+ direction= "normal"
+ dur=" 3000"
+ easing="linear"
+
+ fill= "forwards"
+
+ repeat=" indefinite"
+ to=" 0 360 0"
+></a-animation>
+
+</a-entity>
+
+<a-entity id="questionLight " geometry="primitive: box; width:0.2511823; height:0.2511822; depth:0.2511822;" position="-0.57849 2.0418 -1.0456" rotation="0 0 0" material="shader: 
+standard; transparent: false; color: #FFFFFF; src: #question; repeat: 1 1; offset: 0 0;  side: front; " shadow="receive: 
+false; cast: false;" ><a-animation  attribute= "rotation"
+
+ direction= "normal"
+ dur=" 3000"
+ easing="linear"
+
+ fill= "forwards"
+
+ repeat=" indefinite"
+ to=" 0 360 0"
+></a-animation>
+
+</a-entity>
+
+<a-entity id="questionLight " geometry="primitive: box; width:0.2511823; height:0.2511822; depth:0.2511822;" position="0 2.0418 -1.0456" rotation="0 0 0" material="shader: 
+standard; transparent: false; color: #FFFFFF; src: #question; repeat: 1 1; offset: 0 0;  side: front; " shadow="receive: 
+false; cast: false;" ><a-animation  attribute= "rotation"
+
+ direction= "normal"
+ dur=" 3000"
+ easing="linear"
+
+ fill= "forwards"
+
+ repeat=" indefinite"
+ to=" 0 360 0"
+></a-animation>
+
+</a-entity>
+
+<a-entity id="counter " geometry="primitive: box; width:3.417592; height:0.09441847; depth:0.6253948;" n-mesh-collider='type: environment' position="0 0.9373001 -1.11" rotation="0 0 0" material="shader: 
+standard; transparent: false; color: #FFFFFF; src: #box; repeat: 30 5; offset: 0 0;  side: front; " shadow="receive: 
+false; cast: false;" >
+</a-entity>
+
+<a-entity id="barWall " geometry="primitive: box; width:2.992533; height:0.9676265; depth:0.3744;" n-mesh-collider='type: environment' position="0 0.5 -1.11" rotation="0 0 0" material="shader: 
+standard; transparent: false; color: #FFFFFF; src: #brick; repeat: 10 5; offset: 0 0;  side: front; " shadow="receive: 
+false; cast: false;" >
+</a-entity>
+
+<a-entity id="wall " geometry="primitive: box; width:4.952788; height:2.476394; depth:0.04500451;" n-mesh-collider='type: environment' position="2.4566 1.2543 0.03407099" rotation="0 89.99984 0" material="shader: 
+standard; transparent: false; color: #FFFFFF; src: #brick; repeat: 5 4; offset: 0 0;  side: front; " shadow="receive: 
+false; cast: false;" >
+</a-entity>
+
+<a-entity id="wall " geometry="primitive: box; width:4.952788; height:2.476394; depth:0.04500451;" n-mesh-collider='type: environment' position="-2.4566 1.2543 0.03408199" rotation="0 89.99984 0" material="shader: 
+standard; transparent: false; color: #FFFFFF; src: #brick; repeat: 5 4; offset: 0 0;  side: front; " shadow="receive: 
+false; cast: false;" >
+</a-entity>
+
+<a-entity id="wall " geometry="primitive: box; width:4.95279; height:2.476394; depth:0.04500451;" n-mesh-collider='type: environment' position="0 1.2543 2.4907" rotation="0 0 0" material="shader: 
+standard; transparent: false; color: #FFFFFF; src: #brick; repeat: 5 4; offset: 0 0;  side: front; " shadow="receive: 
+false; cast: false;" >
+</a-entity>
+
+<a-entity id="wall " geometry="primitive: box; width:4.95279; height:2.476394; depth:0.04500451;" n-mesh-collider='type: environment' position="0 1.2543 -2.4225" rotation="0 0 0" material="shader: 
+standard; transparent: false; color: #FFFFFF; src: #brick; repeat: 5 4; offset: 0 0;  side: front; " shadow="receive: 
+false; cast: false;" >
+</a-entity>
+
+<a-entity id="floor " geometry="primitive: plane; width:4.952788; height:-4.952788;" position="0 0.01610005 0.01426499" rotation="-90 0 0" material="shader: 
+standard; transparent: false; color: #FFFFFF; src: #brick; repeat: 30 30; offset: 0 0;  side: double; " shadow="receive: 
+false; cast: false;" >
+</a-entity>
 
 </a-scene>
 </body>
