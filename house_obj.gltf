@@ -1,0 +1,154 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 1530,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 1530,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 1530,
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 1530,
+      "type": "VEC3",
+      "max": [
+        563.012268,
+        620.3362,
+        395.784546
+      ],
+      "min": [
+        -669.4317,
+        -0.389099,
+        -497.876526
+      ]
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5123,
+      "count": 3225,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "generator": "glTF Tools for Unity",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 12240
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 12240,
+      "byteLength": 18360
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 30600,
+      "byteLength": 24480
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 55080,
+      "byteLength": 18360
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 73440,
+      "byteLength": 6450
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "house_obj.bin",
+      "byteLength": 79890
+    }
+  ],
+  "images": [
+    {
+      "uri": "house_obj_baseColor.png"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "TEXCOORD_0": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "POSITION": 3
+          },
+          "indices": 4,
+          "material": 0
+        }
+      ],
+      "name": "House"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0
+      },
+      "name": "house_diffuse"
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "House"
+    },
+    {
+      "children": [
+        0
+      ],
+      "rotation": [
+        0.0,
+        -0.9238794,
+        0.0,
+        0.382683754
+      ],
+      "scale": [
+        0.01,
+        0.01,
+        0.01
+      ],
+      "translation": [
+        -1.26929677,
+        0.0,
+        -9.53
+      ],
+      "name": "house_obj"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        1
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "source": 0
+    }
+  ]
+}
